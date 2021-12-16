@@ -2,7 +2,7 @@
 
 AltText::AltText(TextType type): type(type), text("FIXED") {}
 AltText::AltText(TextType type, const string& t): type(type), text(t) {}
-AltText::AltText(TextType type, const string& conn): type(type), text(t), left_bracket(left), right_bracket(right), connector(conn) {}
+AltText::AltText(TextType type, const string& t, const string& left, const string& right, const string& conn): type(type), text(t), left_bracket(left), right_bracket(right), connector(conn) {}
 
 string AltText::get() const {
   switch (type) {

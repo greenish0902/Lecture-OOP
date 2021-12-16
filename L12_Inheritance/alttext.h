@@ -6,7 +6,7 @@
 using namespace std;
 
 enum class TextType {
-  Plain, Fancy, Fixed 
+  Plain, Fancy, Fixed
 };
 
 class AltText {
